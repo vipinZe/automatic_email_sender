@@ -1,8 +1,8 @@
 import smtplib
 
-sender='your email'
-password='$$$$$$$$$$$$$$$$$$$$'
-reciever= 'reciver email'
+sender="Your email address"
+password='Email app password'
+reciever= "Reciver email address"
 
 
 s = smtplib.SMTP('smtp.gmail.com', 587)
